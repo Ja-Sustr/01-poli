@@ -8,12 +8,15 @@ font-family: Arial, Helvetica, sans-serif;
 .container{
 width: 1000px;
 height: 5000px;
-background-color: aliceblue;
+
+margin-left: auto;
+margin-right: auto;
+
 }
 
 .horni_lista{
     background-color:#5E1858;
-    width: 100vw;
+    width: 100%;
     height: 60px;
 }
 
@@ -22,4 +25,35 @@ background-color: aliceblue;
     font-weight: 700;
     color: white;
     padding: 14px 0;
+}
+
+.texty_L{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.texty_L_container{
+    float: right;
+    display: flex;
+    flex-direction:row;
+    margin-top: -40px;
+}
+
+.foto_hlavni{
+    margin-top: 20px;
+}
+
+.texty2{
+    margin-left: 5px;
+    float: right;
+    margin-top: 20px;
+    max-width: 410px;
+}
+
+.nadpis2{
+    text-align: left;
+    font-size: 30px;
+    color: #2D2746;
 }
