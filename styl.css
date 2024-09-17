@@ -7,11 +7,12 @@ font-family: Arial, Helvetica, sans-serif;
 
 .container{
 width: 1000px;
-height: 5000px;
-
 margin-left: auto;
 margin-right: auto;
+}
 
+.foto_hlavni{
+    margin-bottom: 30px;
 }
 
 .horni_lista{
@@ -52,8 +53,66 @@ margin-right: auto;
     max-width: 410px;
 }
 
+.text2{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 .nadpis2{
     text-align: left;
     font-size: 30px;
     color: #2D2746;
+}
+
+.ctverce{
+margin-top: 20px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin-bottom: 20px;
+}
+
+.ctverec{
+    width: 300px;
+    height: 330px;
+    background-color: #EBEAFA ;
+}
+
+.nadpis3{
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.text2-obd{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.gallery {
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: repeat(2, 130px);
+    grid-gap: 20px;
+}
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img1 { grid-column: 1 / 3; grid-row: 1 / 3; }
+.img2 { grid-column: 3 / 4; grid-row: 1 / 2; }
+.img3 { grid-column: 4 / 5; grid-row: 1 / 2; }
+.img4 { grid-column: 3 / 5; grid-row: 2 / 3; }
+.img5 { grid-column: 5 / 6; grid-row: 1 / 3; }
+
+.podpis{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
 }
