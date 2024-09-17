@@ -116,3 +116,9 @@ margin-top: 20px;
     font-weight: 400;
     font-size: 15px;
 }
+
+@media (max-width: 1030px) {
+body{
+    background-color: black;
+}
+}
